@@ -31491,6 +31491,7 @@ spec:
     protocol: TCP
     targetPort: 8080
     nodePort: 30443
+  loadBalancerIP: 172.18.0.240
   type: LoadBalancer
     
   selector:
